@@ -38,24 +38,17 @@ html, body {
     margin: auto;
   }
   
-  .flex{
-    display:flex;
-    border: 2px solid;
-    width: 18%;
-    background: #ff9f81;
-    border-radius: 20px;
-}
 
   .flex-col{
     flex-direction: column;
+    display: inline-block;
+    margin-left: 43%;
   }
   
   .items-center{
     align-items: center;
   }
-  .long{
-    padding: 20px 69px;
-  }
+ 
   .onclick{
     margin-left: 47%;
     margin-top: 2%;
@@ -70,4 +63,7 @@ html, body {
 .mydark {
     background-color: rgb(81, 78, 78);
     color: white;
+}
+.box{
+
 }
